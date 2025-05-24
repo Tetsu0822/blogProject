@@ -1,6 +1,6 @@
 .time {
     font-size: 16px;
-    font-weight: Medium;
+    font-weight: 500;
     line-height: $font-line-height;
 }
 
@@ -9,7 +9,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
-
 }
 
 .mark {
@@ -27,7 +26,6 @@
   line-height: $font-line-height;
 }
 .text {
-  width: 636px;
   height: 48px;
   font-size: $font-size-base;
   line-height: $font-line-height;
@@ -36,4 +34,6 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }

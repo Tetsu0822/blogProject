@@ -81,18 +81,13 @@ a {
 span {
   color: #0027D5;
   font-size: 24px;
-  font-weight: Medium;
+  font-weight: 500;
   line-height: 1.5;
 }
 
 /* 共通 class */
 .wrap {
   max-width: 1920px;
-  margin: 0 auto;
-}
-
-.newswraper {
-  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -145,7 +140,7 @@ span {
 .container .hero2 .blog-title {
   color: #0027D5;
   font-size: 120px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.5;
 }
 .container .hero2 .blog-text {
@@ -178,6 +173,58 @@ span {
   width: 50%;
 }
 
+.newswraper {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.newswraper .search {
+  width: 416px;
+  height: 56px;
+  border: 1px solid #000000;
+  padding: 16px 48px 16px 16px;
+  border-radius: 40px;
+  margin-top: 80px;
+}
+.newswraper .card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+.newswraper .card-list li {
+  width: 400px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+.newswraper .card-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
 .footer {
   width: 100%;
   height: 72px;
@@ -190,7 +237,7 @@ span {
 
 .time {
   font-size: 16px;
-  font-weight: Medium;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -223,7 +270,6 @@ span {
 }
 
 .text {
-  width: 636px;
   height: 48px;
   font-size: 16px;
   line-height: 1.5;
@@ -232,4 +278,6 @@ span {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
