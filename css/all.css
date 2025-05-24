@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-family: "Noto Sans TC", "Helvetica,Arial,sans-serif";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  /* 也可以寫 color: inherit */
+}
+
+span {
+  color: #0027D5;
+  font-size: 24px;
+  font-weight: Medium;
+  line-height: 1.5;
+}
+
+/* 共通 class */
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.newswraper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: 90px;
+}
+.header .header-link {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 24px 0;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: -160px;
+  background: #FBFBFB;
+}
+.container .hero1 {
+  width: 50%;
+  padding: 300px 80px;
+  background-image: url("../images/HeroSection-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .hero2 {
+  width: 50%;
+  padding: 300px 80px;
+  background-image: url("../images/HeroSection-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .hero2 .blog-title {
+  color: #0027D5;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.container .hero2 .blog-text {
+  color: #0027D5;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.last-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px;
+}
+.last-news .news-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.footer {
+  width: 100%;
+  height: 72px;
+}
+.footer .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: Medium;
+  line-height: 1.5;
+}
+
+.tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.mark {
+  color: white;
+  background: #0027D5;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 40px;
+}
+
+.title {
+  color: #0027D5;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text {
+  width: 636px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 限制顯示 3 行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

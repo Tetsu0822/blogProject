@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: $font-color-base;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $font-line-height;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: $font-color-base;
+  /* 也可以寫 color: inherit */
+}
+
+span {
+    color: $color-blue;
+    font-size: 24px;
+    font-weight: Medium;
+    line-height: $font-line-height;
+}
+/* 共通 class */
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.newswraper {
+    max-width: 1280px;
+    margin: 0 auto;
+}

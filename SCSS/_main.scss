@@ -1,0 +1,39 @@
+.time {
+    font-size: 16px;
+    font-weight: Medium;
+    line-height: $font-line-height;
+}
+
+.tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.mark {
+  color: white;
+  background: $color-blue;
+  font-size: 16px;
+  padding : 6px 12px;
+  border-radius: 40px;
+}
+
+.title {
+  color: $color-blue;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: $font-line-height;
+}
+.text {
+  width: 636px;
+  height: 48px;
+  font-size: $font-size-base;
+  line-height: $font-line-height;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;        /* 限制顯示 3 行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
