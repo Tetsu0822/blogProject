@@ -97,9 +97,51 @@
     }
 }
 
+.barBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 556px;
+    gap: 24px;
+    padding: 40px 312px;
+    .bar {
+        display: flex;
+        width: 328px;
+        height: 56px;
+        padding: 8px 20px;
+        .bar-item {
+            width: 40px;
+            height: 40px;
+            font-size: $font-size-base;
+            font-weight: 500;
+            text-align: center;
+            padding: 8px 0px;
+            .preview, .next {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
 
+.bottom-wrap {
+    width: 100%;
+    padding: 80px 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
 
+.b-mail {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: $font-line-height;
+}
 
+.b-icon {
+    display: flex;
+}
 
 .footer {
     width: 100%;

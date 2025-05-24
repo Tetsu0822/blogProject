@@ -19,6 +19,9 @@ img {
 a {
     text-decoration: none;
     color: $font-color-base;
+    .active {
+        color: $color-blue;
+    }
   /* 也可以寫 color: inherit */
 }
 
