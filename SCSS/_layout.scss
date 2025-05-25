@@ -181,23 +181,12 @@
         gap: 10px;
         .search {
             width: 100%;
-            height: 56px;
-            border: 1px solid $font-color-base;
-            padding: 16px 48px 16px 16px;
-            border-radius: 40px;
-            margin-top: 20px;
         }
         .card-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
+            gap: 32px;
+            padding: 40px 12px;
             li {
                 width: 100%;
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                gap: 16px;
             }
         }
     }
@@ -209,23 +198,29 @@
         gap: 10px;
         .search {
             width: 100%;
-            height: 56px;
-            border: 1px solid $font-color-base;
-            padding: 16px 48px 16px 16px;
-            border-radius: 40px;
-            margin-top: 20px;
         }
         .card-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
+            gap: 32px;
+            padding: 40px 12px;
             li {
                 width: 100%;
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                gap: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .newswraper {
+        width: 100%;
+        gap: 10px;
+        .search {
+            width: 100%;
+        }
+        .card-list {
+            gap: 32px;
+            padding: 40px 12px;
+            li {
+                width: 100%;
             }
         }
     }
