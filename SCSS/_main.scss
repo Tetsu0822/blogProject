@@ -25,6 +25,14 @@
   font-weight: bold;
   line-height: $font-line-height;
 }
+
+.title-2 {
+  color: $font-color-base;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: $font-line-height;
+}
+
 .text {
   height: 48px;
   font-size: $font-size-base;
@@ -37,10 +45,30 @@
   margin-top: 8px;
   margin-bottom: 16px;
 }
+
+.underline {
+  text-decoration: $text-line-underline; 
+}
+
 .search-icon {
   width: 24px;
   height: 24px;
 }
 .search-input {
   border: 0;
+}
+
+.btn {
+    display: inline-block;
+    align-self: flex-start;
+    width: auto;
+    font-size: $font-size-base;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid $font-color-base;
+    border-radius: 40px;
+}
+
+.ml-4 {
+  margin-left: 4px;
 }
