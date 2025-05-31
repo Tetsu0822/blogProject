@@ -23,6 +23,7 @@
         width: 50%;
         padding: 300px 80px;
         background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true");
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -53,111 +54,6 @@
     }
 }
 
-.float-wrap {
-    width: 100%;
-    height: 362px;
-    padding: 0 80px;
-    gap: 10px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -160px;
-    .float-box {
-        width: 1077px;
-        height: auto;
-        padding: 80px 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 16px;
-        .float-top {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            flex-wrap: wrap;
-            gap: 8px;
-
-        }
-    }
-}
-
-.blog-goods-wrap {
-    width: 100%;
-    padding: 80px 312px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
-    .title-64 {
-        font-size: 64px;
-        font-weight: bold;
-        line-height: $font-line-height;
-    }
-    .goods-list {
-        max-width: 1432px;
-        display: flex;
-        gap: 24px;
-        margin: 0 -68px;
-        .goods-item {
-            width: 400px;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 16px;
-            img {
-                height: 200px;
-            }
-        }
-        .goods-preivew, .goods-next {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            img {
-                width: 44px;
-                height: 44px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width:992px) {
-    .float-wrap {
-        width: 100%;
-        margin-top: 0;
-        gap: 24px;
-        padding: 40px 24px;
-        .float-box {
-            padding: 0;
-        }
-    }
-}
-
-@media screen and (max-width:768px) {
-    .container {
-        flex-direction: column;
-        gap: 0;
-        .hero1 {
-            width: 100%;
-            height: 576px;
-            padding: 24px;
-        }
-        .hero2 {
-            width: 100%;
-            height: 200px;
-            padding: 24px;
-            .blog-title {
-                font-size: 52px;
-                font-weight: bold;
-            }
-        }
-    }
-    .float-wrap {
-        width: 100%;
-        margin-top: 0;
-    }
-    
-}
-
 @media (max-width: 576px) {
     .container {
         flex-direction: column;
@@ -176,11 +72,6 @@
                 font-weight: bold;
             }
         }
-    }
-    .float-wrap {
-        width: 100%;
-        height: 452px;
-        margin-top: 0;
 
     }
 
@@ -203,11 +94,6 @@
                 font-weight: bold;
             }
         }
-    }
-    .float-wrap {
-        width: 100%;
-        height: 452px;
-        margin-top: 0;
 
     }
 
@@ -390,6 +276,7 @@
 }
 
 @media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
     .barBlock {
         padding: 0 100px;
     }
@@ -397,6 +284,14 @@
         width: 100%;
         justify-content: center;
     }
+
+}
+
+@media (max-width: 768px) {
+    .barBlock {
+        padding: 0 100px;
+    }
+    .bottom-wrap {
 
 }
 
