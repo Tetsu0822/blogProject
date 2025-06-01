@@ -467,6 +467,16 @@
 }
 .service-section {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    .sev-Project {
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        padding: 80px 312px;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -484,6 +494,7 @@
 
 }
 .swiper-wrapper-area {
+    margin-top: 24px;
     position: relative;
     display: flex;
     align-items: center;
@@ -541,7 +552,7 @@ li.swiper-slide {
 @media screen and (max-width:768px) {
   .swiper-wrapper-area {
     display: block !important;
-    height: 582px !important;
+    height: 550px !important;
   }
   .swiper-button-next,
   .swiper-button-prev {
