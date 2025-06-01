@@ -216,8 +216,8 @@
             width: 100%;
         }
         .card-list {
-            gap: 32px;
-            padding: 40px 12px;
+            gap: 16px;
+            padding: 0;
             li {
                 width: 100%;
             }
@@ -466,22 +466,27 @@
     }
 }
 .service-section {
-    max-width: 1920px;
+    width: 100%;
+}
+
+@media screen and (max-width:375px) {
+    .service-section {
+        margin: 0;
+    }
 }
 //  SWiper CSS
 .swiper {
-  width: 100%;
+  width: 90%;
 }
 .swiper-container {
     width: 100%;
+    margin: 0 auto;
     padding: 80px 312px;
 
 }
 @media screen and (max-width: 1400px) {
     .swiper-container {
-        width: 90%;
-        margin: 0 auto;
-        padding: 12px 64px;
+        padding: 64px 12px;
     }
 
 }
